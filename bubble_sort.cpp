@@ -1,4 +1,4 @@
-#include <vector>
+#include "bubble_sort.hpp"
 
 void bubble_sort(std::vector<int>& A){
     for (int i = 0; i < A.size() - 1; ++i){

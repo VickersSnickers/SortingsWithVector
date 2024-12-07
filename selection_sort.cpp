@@ -1,4 +1,4 @@
-#include <vector>
+#include "selection_sort.hpp"
 
 void selection_sort(std::vector<int>& A, int size){
     for (int i = 0; i < size - 1; ++i){
